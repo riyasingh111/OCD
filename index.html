@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OCD Self-Check Calculator – Free OCI-R Symptom Score</title>
+<meta name="description" content="Free OCD self-check using the 18-question OCI-R. Get your score in plain words, learn what it means, play quick games and know when to talk to a doctor.">
+<meta name="keywords" content="OCD test, OCD calculator, OCD self-check, OCI-R online, obsessive compulsive disorder test, OCD symptoms score, am I OCD, OCD hoarding score">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="theme-color" content="#3b3a8f">
+<link rel="canonical" href="https://www.medindia.net/doctors/clinical_cal/ocd.asp">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Medindia - Trusted Health Information">
+<meta property="og:title" content="OCD Self-Check Calculator – Free OCI-R Symptom Score">
+<meta property="og:description" content="Free 18-question OCD self-check. See your score in plain words. Not a diagnosis.">
+<meta property="og:url" content="https://www.medindia.net/doctors/clinical_cal/ocd.asp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@Medindia">
+<meta name="twitter:title" content="OCD Self-Check Calculator – Free OCI-R Symptom Score">
+<meta name="twitter:description" content="Free 18-question OCD self-check. See your score in plain words. Not a diagnosis.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"OCD Self-Check Calculator (OCI-R)","url":"https://www.medindia.net/doctors/clinical_cal/ocd.asp","applicationCategory":"HealthApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Medindia","url":"https://www.medindia.net"}}
+</script>
+<script type="application/ld+json" id="faq-ld"></script>
+<style>
+:root{--navy:#1c3f74;--navy2:#2a5aa3;--teal:#0f8b8d;--bg:#f4f7fb;--card:#fff;--ink:#1d2733;--mute:#5a6776;--line:#dbe3ee;--green:#1a7f4b;--greenbg:#e6f6ed;--amber:#a86a00;--amberbg:#fff4dc;--red:#b3261e;--redbg:#fde9e7;--r:14px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:var(--navy2)}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+header.top{background:var(--navy);color:#fff}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:54px}
+header.top b{letter-spacing:.14em;font-size:19px}
+header.top a{color:#cfe0ff;text-decoration:none;font-size:14px;margin-left:16px}
+.crumbs{font-size:14px;color:var(--mute);padding:12px 0}
+h1{font-size:clamp(26px,4.5vw,36px);line-height:1.2;margin:.2em 0 .4em;color:var(--navy)}
+h2{font-size:clamp(21px,3.2vw,26px);color:var(--navy);margin:2em 0 .5em;line-height:1.3}
+h3{font-size:18px;margin:1.2em 0 .3em}
+p{margin:.5em 0 1em}
+.lead{font-size:19px}
+sup a{text-decoration:none;font-weight:600;font-size:.8em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;margin:18px 0;box-shadow:0 1px 2px rgba(20,40,80,.05)}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.tab,.chip,.seg button{font:inherit;font-size:15px;border:1px solid var(--line);background:#fff;color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer}
+.tab[aria-selected=true],.chip[aria-pressed=true],.seg button[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+label{font-weight:600;font-size:15px;display:block;margin-bottom:4px}
+.row{display:flex;gap:8px;align-items:center}
+input[type=number],input[type=email],select{width:100%;font:inherit;padding:10px 12px;border:1px solid #b9c6d8;border-radius:10px;background:#fff}
+input:focus,select:focus,button:focus-visible,summary:focus-visible{outline:3px solid #8fb4f0;outline-offset:1px}
+.seg{display:flex;gap:4px}
+.seg button{padding:8px 10px;border-radius:10px;font-size:14px;white-space:nowrap}
+.hint{font-size:14px;color:var(--mute);margin-top:3px}
+.btn{font:inherit;font-weight:700;background:var(--teal);color:#fff;border:0;border-radius:12px;padding:13px 26px;cursor:pointer;font-size:17px}
+.btn.alt{background:#fff;color:var(--navy);border:1px solid var(--navy)}
+.btn:hover{filter:brightness(1.07)}
+.err{color:var(--red);font-weight:600;margin-top:10px;min-height:1.2em}
+.box{border:2px dashed #9db3d4;border-radius:12px;padding:14px;margin:14px 0;background:#fbfdff}
+.box>.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.05em;color:var(--navy2);text-transform:uppercase;margin-bottom:6px}
+table{border-collapse:collapse;width:100%;font-size:15.5px}
+th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:#eef3fa;cursor:default}
+tr.hl td{background:#fff8d9}
+.tabletools{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.callout{border-left:5px solid var(--teal);background:#eaf7f7;padding:12px 16px;border-radius:0 10px 10px 0;margin:14px 0}
+.callout.warn{border-color:var(--amber);background:var(--amberbg)}
+details{border:1px solid var(--line);border-radius:12px;background:#fff;margin:8px 0;padding:0 16px}
+summary{cursor:pointer;font-weight:600;padding:13px 0}
+details[open] summary{color:var(--navy)}
+.checks label{font-weight:400;display:flex;gap:10px;align-items:flex-start;padding:7px 0;cursor:pointer}
+.checks input{margin-top:6px;width:18px;height:18px}
+.meter{height:14px;background:#e8edf5;border-radius:99px;overflow:hidden}
+.meter>i{display:block;height:100%;width:0;background:var(--teal);transition:width .35s}
+.meter.over>i{background:var(--red)}
+.cards3{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.mini{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff}
+.mini h4{margin:0 0 4px;font-size:16px;color:var(--navy)}
+input[type=range]{width:100%;accent-color:var(--teal)}
+.big{font-size:clamp(34px,8vw,54px);font-weight:800;line-height:1}
+.badge{display:inline-block;padding:6px 14px;border-radius:999px;font-weight:700;font-size:15px}
+.badge.g{background:var(--greenbg);color:var(--green)}.badge.a{background:var(--amberbg);color:var(--amber)}.badge.r{background:var(--redbg);color:var(--red)}
+.hero{display:grid;gap:20px;grid-template-columns:minmax(0,260px) 1fr;align-items:center}
+@media(max-width:640px){.hero{grid-template-columns:1fr}}
+.stat{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px}
+.share{display:flex;flex-wrap:wrap;gap:8px}
+.share a,.share button{font:inherit;font-size:15px;text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:8px 14px;background:#fff;color:var(--navy);cursor:pointer}
+code,textarea{font:13px/1.5 ui-monospace,Menlo,Consolas,monospace}
+textarea{width:100%;border:1px solid #b9c6d8;border-radius:10px;padding:10px;background:#f6f8fb}
+.refs li{margin:0 0 12px;padding-left:.2em;word-break:break-word;font-size:15px}
+.hide{display:none!important}
+.opt{display:flex;gap:8px;flex-wrap:wrap}
+.game-card{font-size:19px;min-height:84px;display:flex;align-items:center}
+footer{background:#13294d;color:#cdd8ea;margin-top:50px;padding:26px 0;font-size:14px}
+footer a{color:#fff}
+.disc{font-size:14px;color:var(--mute)}
+@media print{header.top,.share,footer,.noprint,.box.noprint{display:none!important}body{background:#fff}.card{box-shadow:none}}
+
+/* ===== responsive + new components ===== */
+img,svg{max-width:100%}
+.grid,.cards3{grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr))}
+a.btn{display:inline-block;text-decoration:none;text-align:center}
+.chip,.tab,.seg button{min-height:40px}
+.hero svg{display:block;margin:0 auto;width:100%;max-width:260px}
+.meter.near>i{background:#e5a100}
+#games{scroll-margin-top:12px}
+.how{background:#f1f5fb;border-radius:12px;padding:10px 16px;margin:10px 0}.how ol{margin:.4em 0;padding-left:1.2em}.how li{margin:.3em 0}
+.fbtxt{font-size:18px;margin:8px 0}
+.fbitems{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));margin:12px 0}
+.fbi{font:inherit;font-size:15px;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 8px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;text-align:center;min-height:92px;color:var(--ink)}
+.fbi .em{font-size:28px;line-height:1}.fbi small{color:var(--teal);font-weight:700;font-size:14px}.fbi:active{transform:scale(.97)}
+.share{gap:10px}
+.share .sh{display:inline-flex;align-items:center;gap:8px;background:var(--c,#1c3f74);color:#fff;border:0;border-radius:12px;padding:10px 16px;font-weight:600;min-height:46px}
+.share .sh:hover{filter:brightness(1.12)}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:50;background:var(--navy);color:#fff;border:0;border-radius:999px;padding:13px 20px;font:inherit;font-weight:700;font-size:15px;box-shadow:0 6px 18px rgba(20,40,80,.35);cursor:pointer}
+@media(min-width:1200px){.wrap{max-width:1080px}}
+@media(max-width:720px){body{font-size:16px}h2{margin-top:1.6em}.card{padding:16px}.lead{font-size:17px}
+ header.top .wrap{height:auto;min-height:54px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}header.top a{margin:0 14px 0 0}}
+@media(max-width:560px){.wrap{padding:0 12px}
+ .tab{flex:1 1 100%;text-align:center;border-radius:12px}
+ .row{flex-wrap:wrap}.row>input{flex:1 1 120px;min-width:0}
+ .btn{width:100%}
+ #cmp,#resTbl{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+ th,td{padding:8px 7px;font-size:14.5px}
+ .stat .tile{flex:1 1 calc(50% - 9px);min-width:0}
+ .share .sh{width:48px;height:48px;padding:0;justify-content:center;border-radius:50%}.share .sh span{display:none}
+ .fbitems{grid-template-columns:repeat(2,1fr)}
+ .fab{padding:12px 16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.meter>i{transition:none}}
+@media print{.fab{display:none!important}}
+
+/* ===== review round: reviewer line, organ icon, talking kidney ===== */
+.ki::before{content:"";display:inline-block;width:1.05em;height:1.05em;margin-right:.3em;vertical-align:-.12em;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M58 8C82 6 96 24 94 48 92 74 78 94 54 94 30 94 20 80 26 66 30 58 40 56 40 48 40 40 30 36 28 28 26 16 42 10 58 8Z' fill='%23e07a6b' stroke='%23b5483c' stroke-width='5'/%3E%3C/svg%3E") center/contain no-repeat}
+.rev{font-size:14px;color:var(--mute);margin:6px 0 -6px}
+.rev b{color:var(--navy)}
+.kid-row{display:flex;gap:14px;align-items:center;background:#f1f5fb;border-radius:12px;padding:10px 14px;margin:0 0 14px}
+.kid-row .txt{flex:1;min-width:0}
+.kid-row .opt{margin-top:6px}
+.kid{width:76px;height:76px;flex:none;display:block;cursor:pointer;background:none;border:0;padding:0;border-radius:50%}
+.kid svg{width:100%;height:100%;display:block}
+.kid .mouth{transform-box:fill-box;transform-origin:center}
+.kid.talking svg{animation:bob .5s ease-in-out infinite alternate}
+.kid.talking .mouth{animation:talk .26s ease-in-out infinite alternate}
+@keyframes talk{from{transform:scaleY(.35)}to{transform:scaleY(1.35)}}
+@keyframes bob{from{transform:translateY(0) rotate(-2deg)}to{transform:translateY(-3px) rotate(2deg)}}
+.say[aria-pressed=true]{background:var(--teal);color:#fff;border-color:var(--teal)}
+.nospeech .say,.nospeech .kid{display:none!important}
+details.what summary,details.learn summary{font-weight:600}
+details.what p{margin:.4em 0 .8em}
+.learn-g details{margin:6px 0}
+.learn-g .say{margin:0 0 12px}
+.stat .tile{font:inherit;color:inherit;text-align:left;border:0;background:#f1f5fb;border-radius:12px;padding:10px 16px;min-width:120px;cursor:pointer;display:block}
+.stat .tile small{display:block;color:var(--mute);font-size:13px}
+.stat .tile[aria-pressed=true]{outline:2px solid var(--teal)}
+.lim{max-width:240px}
+.fbi:disabled{opacity:.45;cursor:not-allowed}
+.pdbtns{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}
+.gem{font-size:26px;margin-right:10px}
+@media(prefers-reduced-motion:reduce){.kid.talking svg,.kid.talking .mouth{animation:none}}
+@media print{body.printpd header.top,body.printpd .crumbs,body.printpd .rev,body.printpd #view-input>:not(#calcCard),body.printpd .tabs,body.printpd .fab{display:none!important}}
+
+/* ===== OCD page ===== */
+:root{--navy:#3b3a8f;--navy2:#5753c9}
+.ki::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='%23f6b8cf' stroke='%23c9739b' stroke-width='8' stroke-linejoin='round'%3E%3Ccircle cx='36' cy='42' r='23'/%3E%3Ccircle cx='64' cy='42' r='23'/%3E%3Ccircle cx='50' cy='66' r='22'/%3E%3C/g%3E%3Cg fill='%23f6b8cf'%3E%3Ccircle cx='36' cy='42' r='23'/%3E%3Ccircle cx='64' cy='42' r='23'/%3E%3Ccircle cx='50' cy='66' r='22'/%3E%3C/g%3E%3C/svg%3E")}
+.qcard{display:flex;gap:12px;align-items:center;background:#f1f5fb;border-radius:14px;padding:16px;margin:0 0 10px;min-height:96px}
+.qtext{font-size:clamp(18px,3.4vw,22px);font-weight:600;margin:0;line-height:1.4}
+.qcard .gem{font-size:34px;margin:0}
+.ans{display:grid;gap:8px;grid-template-columns:repeat(5,1fr)}
+.ans button{font:inherit;font-size:14px;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 4px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;min-height:64px;color:var(--ink)}
+.ans button b{font-size:20px}
+.ans button[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy)}
+@media(max-width:560px){.ans{grid-template-columns:1fr}.ans button{flex-direction:row;justify-content:flex-start;gap:12px;padding:10px 14px;min-height:48px;font-size:16px}}
+.subs{display:grid;gap:8px}
+.sub{font:inherit;display:grid;grid-template-columns:130px 1fr 48px;gap:12px;align-items:center;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 14px;cursor:pointer;text-align:left;color:var(--ink)}
+.sub[aria-pressed=true]{outline:2px solid var(--teal)}
+.sub .meter i{background:var(--navy2)}
+.sub b{text-align:right}
+@media(max-width:420px){.sub{grid-template-columns:96px 1fr 44px;gap:8px;padding:10px}}
+.ladder{margin:12px 0 0;padding-left:1.3em}.ladder li{margin:.3em 0}
+input[type=text]{width:100%;font:inherit;padding:10px 12px;border:1px solid #b9c6d8;border-radius:10px;background:#fff}
+
+/* ===== redesign: violet / coral look, brain beside the intro ===== */
+:root{--navy:#3d2c8d;--navy2:#6a4fe0;--teal:#5b3fd1;--pop:#ff7a59;--bg:#faf8ff;--line:#e4dcfa}
+body{background:radial-gradient(900px 400px at 100% -50px,#f0e9ff,transparent),#faf8ff}
+header.top{background:#fff;color:var(--navy);border-bottom:3px solid #e3d9ff}header.top b{color:var(--navy)}header.top a{color:var(--navy2);font-weight:600}
+h1,h2{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.01em}
+h2{padding-left:14px;border-left:5px solid var(--pop)}
+.card h2[style*="margin-top:0"],.hero h2{border-left:0;padding-left:0}
+.card{border:0;border-radius:20px;box-shadow:0 10px 30px rgba(61,44,141,.09)}
+#calcCard{border-top:6px solid var(--pop)}
+.btn{background:linear-gradient(135deg,#5b3fd1,#8a63f2);border-radius:14px}
+.btn.alt{background:#fff;border:1px solid #cdbff7;color:var(--navy)}
+.chip,.tab{border-color:#d9cffb}
+.box{border:0;background:#f4f0ff;border-radius:18px}.box>.tag{display:none}
+.callout{background:#f4f0ff;border-left-color:var(--navy2)}.callout.warn{background:var(--amberbg);border-left-color:var(--amber)}
+.meter{height:12px}.meter>i{background:linear-gradient(90deg,#8a63f2,#ff7a59)}
+.intro{display:flex;gap:14px;align-items:flex-start;background:linear-gradient(135deg,#efe8ff,#fff0f6);border-radius:22px;padding:16px;margin:8px 0 18px}
+.intro .itxt{flex:1;min-width:0}.intro .lead{margin:0 0 10px;font-size:17.5px}
+.rintro{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+.kid{width:84px;height:84px;background:#fff;box-shadow:0 0 0 4px #e3d9ff,0 6px 16px rgba(91,63,209,.25)}.kid svg{padding:7px}
+.intro .kid{margin-top:2px}.rintro .kid{width:56px;height:56px}
+.kid.talking{animation:ring 1s ease-out infinite}
+@keyframes ring{from{box-shadow:0 0 0 4px #e3d9ff,0 0 0 4px rgba(138,99,242,.5)}to{box-shadow:0 0 0 4px #e3d9ff,0 0 0 16px rgba(138,99,242,0)}}
+.qh{margin:0 0 8px}.qh .chip{min-height:34px;font-size:14px;margin-left:4px}
+details.what summary small{color:var(--navy2);font-weight:500;margin-left:6px}details.what>.chip{margin:0 0 8px}
+.qcard{background:linear-gradient(135deg,#f4f0ff,#fff6f1);border-radius:18px}
+.qcard .gem{background:#fff;border-radius:50%;width:56px;height:56px;display:grid;place-items:center;flex:none;box-shadow:0 3px 10px rgba(61,44,141,.15)}
+.ans button{border-bottom:4px solid var(--c,#ccc)}
+.ans button[data-v="0"]{--c:#1a7f4b}.ans button[data-v="1"]{--c:#5b8a1f}.ans button[data-v="2"]{--c:#b07d00}.ans button[data-v="3"]{--c:#c2561a}.ans button[data-v="4"]{--c:#b3261e}
+.ans button[aria-pressed=true]{background:var(--c);border-color:var(--c)}
+#games{background:linear-gradient(160deg,#2a1d63,#4b2fa8);border-radius:26px;padding:20px 14px;margin-top:34px}
+#games>h2{color:#fff}#games>p{color:#e6dfff}
+.game h3{margin-top:0;font-family:Georgia,serif;font-size:21px;color:var(--navy)}
+.game-card{background:#f4f0ff;border-radius:16px;padding:14px 16px;font-size:20px}
+.opt .btn{flex:1 1 150px}
+.uscene{background:#f4f0ff;border-radius:14px;height:110px;padding:4px 8px}.uscene svg{width:100%;height:100%;display:block}
+.gbars{display:grid;grid-template-columns:104px 1fr;gap:8px 10px;align-items:center;font-size:14px;margin:10px 0}
+.gbars .meter>i{transition:width .12s}#uUrge{background:linear-gradient(90deg,#ffb36b,#ff5a4f)}#uLoop{background:#6a4fe0}
+details.more{background:#fff;border:0;border-radius:18px;padding:0 16px;margin-top:16px}details.more[open]{padding-bottom:12px}details.more .card{box-shadow:none;border:1px solid var(--line)}
+@media(max-width:560px){.intro{padding:12px;gap:10px;border-radius:18px}.kid{width:62px;height:62px}.intro .lead{font-size:15.5px;line-height:1.55}.gbars{grid-template-columns:92px 1fr}.game-card{font-size:18px}#games{padding:16px 10px;border-radius:20px}}
+@media print{.kid,.intro .chip{display:none!important}}
+
+/* ===== lighter on phones ===== */
+.rtabs{position:sticky;top:0;z-index:45;display:flex;gap:6px;background:rgba(250,248,255,.94);backdrop-filter:blur(6px);padding:8px 0;margin:0 0 6px;border-bottom:1px solid var(--line)}
+.rtabs button{flex:1;font:inherit;font-size:14px;font-weight:600;border:1px solid #d9cffb;background:#fff;color:var(--navy);border-radius:999px;padding:9px 6px;min-height:42px;cursor:pointer}
+.rtabs button.retake{background:var(--navy);color:#fff;border-color:var(--navy)}
+.fab{display:none!important}
+.uface{font-size:68px;line-height:1.1;text-align:center;margin:6px 0}.usay{font-size:18px;font-weight:600;text-align:center;min-height:3.4em;margin:4px 0 10px}
+.refd summary{cursor:pointer}.refd summary small{color:var(--navy2)}.refd[open] .refs{margin-top:12px}
+.foldbtn,.swipe{display:none}
+@media(max-width:560px){
+ body{font-size:15.5px;line-height:1.55}h1{font-size:25px}h2{font-size:20px;margin:1.3em 0 .35em}h3{font-size:17px}p{margin:.4em 0 .8em}.card{padding:14px;margin:12px 0}
+ .fold:not(.open){display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+ .foldbtn{display:inline-block;font:inherit;font-weight:600;font-size:14px;color:var(--navy2);background:none;border:0;padding:4px 0 8px;cursor:pointer}
+ .swipe{display:block;margin:0 0 6px}
+ #lifeCards{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;-webkit-overflow-scrolling:touch}
+ #lifeCards .mini{flex:0 0 80%;scroll-snap-align:start}
+ .hero svg{max-width:190px}.big{font-size:32px}table{font-size:14px}.uface{font-size:56px}.usay{font-size:16.5px}
+ .rtabs button{font-size:13px;padding:8px 4px}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><b>MEDINDIA</b><nav><a href="https://www.medindia.net/patients/calculators/index.asp">Calculators</a><a href="https://www.medindia.net/medicalnews/latesthealthnews_index.asp">News</a></nav></div></header>
+
+<div class="wrap">
+<div class="crumbs"><a href="https://www.medindia.net">Medindia</a> » <a href="https://www.medindia.net/patients/calculators/index.asp">Calculators</a> » <a href="https://www.medindia.net/patients/calculators/clinical-tools.asp">Clinical Tools</a> » OCD Self-Check Calculator</div>
+
+<!-- ===================== PAGE 1: INPUT ===================== -->
+<main id="view-input">
+<h1>OCD Self-Check Calculator (OCI-R)</h1>
+<div class="intro"><span class="kid-slot"></span><div class="itxt"><p class="lead fold" id="introTxt">Do unwanted thoughts or repeated habits take up a lot of your day? This free tool uses the 18-question OCI-R, a scale used by doctors and researchers, to turn your answers into a simple score.<sup><a href="#ref-1">[1]</a></sup> It is a self-check, not a diagnosis. Only a doctor or mental health professional can diagnose OCD, and effective treatment exists.<sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-3">[3]</a></sup> Your answers stay on your device and are never sent anywhere.</p><button type="button" class="chip say" data-read="#introTxt" aria-pressed="false">🔊 Listen to this intro</button></div></div>
+
+<section class="card" id="calcCard" aria-labelledby="calc-h">
+  <h2 id="calc-h" style="margin-top:0">Your 18-question self-check</h2>
+    <details class="what"><summary>What is OCD? What is the OCI-R? <small>tap to read</small></summary><button type="button" class="chip say" data-read="#whatBody" aria-pressed="false">🔊 Read this</button>
+    <div id="whatBody"><p><b>OCD</b> (obsessive-compulsive disorder) has two parts. <b>Obsessions</b> are unwanted thoughts, images or urges that keep coming back and cause distress. <b>Compulsions</b> are things you feel you must do again and again, such as washing, checking, counting or arranging, to ease that distress. Many people have odd unwanted thoughts now and then.<sup><a href="#ref-4">[4]</a></sup> It becomes a health problem when the thoughts and rituals cause real distress or get in the way of daily life.</p>
+    <p>The <b>OCI-R</b> is a short list of 18 statements. You say how much each one has bothered you in the past month, from 0 (not at all) to 4 (extremely). We add up your answers and compare them with cut-off scores found in research.<sup><a href="#ref-5">[5]</a></sup></p></div></details>
+  <details class="what"><summary>How do I answer? <small>tap to read</small></summary><button type="button" class="chip say" data-read="#howBody" aria-pressed="false">🔊 Read this</button>
+    <div id="howBody"><ol><li>Read each statement. Think about the past month only.</li><li>Choose how much it has distressed or bothered you, not just how often it happens.</li><li>Be honest. There are no right or wrong answers, and nobody sees them.</li><li>After question 18, tap See my score. You can go back and change any answer.</li></ol></div></details>
+
+  <div id="qz" aria-live="polite">
+    <div class="meter" aria-hidden="true"><i id="qBar"></i></div>
+    <p class="hint" id="qCount" style="margin:6px 0 10px"></p>
+    <div class="qcard"><span class="gem" id="qEmoji" aria-hidden="true"></span><p id="qText" class="qtext"></p></div>
+    <p class="hint qh">In the past month, how much has this distressed or bothered you? <button type="button" class="chip say" id="sayQ" aria-pressed="false">🔊 Read this question</button></p>
+    <div class="ans" id="qAns" role="group" aria-label="Answer"></div>
+    <div class="row" style="margin-top:12px;flex-wrap:wrap"><button class="btn alt" type="button" id="qBack">← Back</button><button class="btn alt" type="button" id="fillEx">Fill an example</button><button class="btn" type="button" id="qDone" hidden>See my score</button></div>
+    <div class="err" id="err-q" role="alert"></div>
+  </div>
+</section>
+
+<div class="callout warn noprint" id="helpBox"><b>If you are feeling very low or thinking of harming yourself,</b> please talk to someone now. In India you can call Tele-MANAS free, any time, on <b>14416</b> or <b>1-800-891-4416</b>. Elsewhere, call your local emergency number.</div>
+
+<h2 class="noprint">OCD words explained in plain language</h2>
+<div class="box noprint">
+<div class="opt" id="gloss"></div><p id="glossOut" class="hint" style="margin:8px 0 0">Tap a term to see what it means in plain words.</p></div>
+
+<h2><span class="ki"></span>What is OCD?</h2>
+<p>Think of OCD as a loop. An unwanted thought shows up and feels alarming. Doing a ritual brings a little relief, but the relief does not last, so the thought comes back and the loop starts again. Treatment works by breaking the loop.<sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-3">[3]</a></sup></p>
+<h3 class="noprint">The OCD loop, step by step</h3><p class="hint noprint">Tap a step to read it, or press Next step.</p>
+<div class="box noprint">
+<div class="opt" id="loopTabs"></div>
+<p id="loopOut" style="margin:10px 0 6px" aria-live="polite"></p>
+<button class="btn alt" type="button" id="loopNext">Next step →</button></div>
+
+<h3 class="noprint">OCD facts: common worries answered</h3><p class="hint noprint">Tap a question to read the answer. 🔊 reads it out loud.</p>
+<div class="box noprint">
+<div class="learn-g">
+<details name="ocdfacts"><summary>Are unwanted thoughts normal?</summary><div id="lf1"><p>Yes, many people without OCD also have strange or unwanted thoughts.<sup><a href="#ref-4">[4]</a></sup> A thought is not an action, and having one does not mean you want it to happen. It becomes a problem when it causes a lot of distress and takes over your time.</p></div><button type="button" class="chip say" data-read="#lf1" aria-pressed="false">🔊 Read this</button></details>
+<details name="ocdfacts"><summary>Is OCD only about washing and cleaning?</summary><div id="lf2"><p>No. OCD can be about checking, putting things in order, counting or repeating, unwanted thoughts, or keeping too many things. This self-check looks at six of these areas.</p></div><button type="button" class="chip say" data-read="#lf2" aria-pressed="false">🔊 Read this</button></details>
+<details name="ocdfacts"><summary>Can OCD be treated?</summary><div id="lf3"><p>Yes. Talking therapy called cognitive behavioural therapy, usually with a method called exposure and response prevention, helps many people. Medicines can also help, and some people use both. Your doctor will guide you.<sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-3">[3]</a></sup></p></div><button type="button" class="chip say" data-read="#lf3" aria-pressed="false">🔊 Read this</button></details>
+<details name="ocdfacts"><summary>Why do people wait so long for help?</summary><div id="lf4"><p>Reviews find that shame, not recognising the signs and long waiting lists are common reasons. Many people wait years. People who knew about OCD, or whose family and friends encouraged them, sought help sooner.<sup><a href="#ref-6">[6]</a></sup></p></div><button type="button" class="chip say" data-read="#lf4" aria-pressed="false">🔊 Read this</button></details>
+</div></div>
+
+<h2>How common is OCD, and how long do people wait?</h2>
+<p class="fold">Experts put the lifetime rate worldwide at about 2 to 3 in 100 people. India's 2015 to 2016 national survey found a lower figure of 0.76%, which the authors think may be too low because of stigma.<sup><a href="#ref-7">[7]</a></sup> People often wait a long time for help. Reviews report delays of more than 7 years between first symptoms and proper treatment, and one scoping review of 51 studies found that shame, not understanding OCD and long waits for services were common reasons.<sup><a href="#ref-6">[6]</a></sup> Knowing the signs and support from family or friends helped people seek care sooner.<sup><a href="#ref-6">[6]</a></sup></p>
+
+<h2>Everyday habit or OCD?</h2>
+<p>Most people double-check a lock or like a tidy desk. These are the usual differences. A table cannot diagnose anything, so use it as a starting point for a talk with a doctor.</p>
+<table id="cmp"><thead><tr><th>Question</th><th>Everyday habit</th><th>May point to OCD</th></tr></thead><tbody>
+<tr><td>How upsetting is it?</td><td>Mild or none</td><td>Causes real distress</td></tr>
+<tr><td>How much time does it take?</td><td>A few moments</td><td>Takes up a lot of the day</td></tr>
+<tr><td>Can you stop?</td><td>Yes, easily</td><td>Stopping feels very hard or unbearable</td></tr>
+<tr><td>Does it make sense to you?</td><td>Usually yes</td><td>Often you know it is excessive but cannot stop</td></tr>
+<tr><td>Does it affect life?</td><td>No</td><td>Work, study, sleep or relationships suffer</td></tr>
+</tbody></table>
+
+<h2>How your score is worked out</h2>
+<p>This calculator uses the OCI-R scoring.<sup><a href="#ref-1">[1]</a></sup> In simple steps:</p>
+<ol><li>Each answer is worth 0 to 4 points.</li><li>The 15 questions about washing, checking, ordering, unwanted thoughts and counting or repeating are added up. This is your <b>OCD-type score</b>, out of 60.</li><li>The 3 hoarding questions are added up separately. This is your <b>hoarding score</b>, out of 12.</li><li>Each score is compared with a research cut-off: <b>12</b> for the OCD-type score and <b>6</b> for the hoarding score.<sup><a href="#ref-5">[5]</a></sup></li></ol>
+<details><summary>Show the scoring details and what each part means</summary>
+<table><tr><th>Area</th><th>Questions</th><th>Score range</th></tr>
+<tr><td>Washing</td><td>5, 11, 17</td><td>0 to 12</td></tr><tr><td>Checking</td><td>2, 8, 14</td><td>0 to 12</td></tr><tr><td>Ordering</td><td>3, 9, 15</td><td>0 to 12</td></tr><tr><td>Obsessing (unwanted thoughts)</td><td>6, 12, 18</td><td>0 to 12</td></tr><tr><td>Neutralizing (counting or repeating)</td><td>4, 10, 16</td><td>0 to 12</td></tr><tr><td>Hoarding</td><td>1, 7, 13</td><td>0 to 12</td></tr></table>
+<p><b>OCD-type score</b> = washing + checking + ordering + obsessing + neutralizing (0 to 60). <b>Hoarding score</b> = hoarding (0 to 12). <b>Total</b> = all 18 answers (0 to 72).</p>
+<p>In a study of 474 people, the cut-off of 12 on the OCD-type score picked out people with OCD with about 82% sensitivity and 83% specificity. The hoarding cut-off of 6 did so with about 92% and 93%.<sup><a href="#ref-5">[5]</a></sup> In plain words, roughly 1 in 6 people without OCD still score at or above 12, and roughly 1 in 6 people with OCD score below it. That is why the score is only a pointer, not a diagnosis.</p></details>
+
+<h2><span class="ki"></span>Signs you may want to talk to a doctor</h2>
+<p>Tick any that you notice. This is not a diagnosis.</p>
+<div class="box noprint">
+<div class="checks grid" id="sym"></div>
+<p id="symOut" class="callout" style="margin-bottom:0">Tick anything you have noticed lately.</p></div>
+
+<h2>What can help</h2>
+<p>Tap a topic. Help comes in several forms, and many people use more than one.</p>
+<div class="tabletools noprint" id="habTabs">
+<button class="chip" aria-pressed="true" data-h="therapy">🗣 Therapy</button>
+<button class="chip" aria-pressed="false" data-h="med">💊 Medicine</button>
+<button class="chip" aria-pressed="false" data-h="online">📱 Online help</button>
+<button class="chip" aria-pressed="false" data-h="family">🤝 Family</button>
+<button class="chip" aria-pressed="false" data-h="body">🚶 Body and mind</button></div>
+<div class="card" id="hab">
+<div data-h="therapy"><h3>Therapy: face it step by step</h3><p>The main talking therapy is cognitive behavioural therapy (CBT), usually with <b>exposure and response prevention (ERP)</b>. You meet a trigger in small steps and practise not doing the ritual. A 2026 analysis of 61 trials with 3,710 patients found that every CBT format beat comparison groups. Individual, remote and family-involved CBT worked better than group CBT.<sup><a href="#ref-2">[2]</a></sup></p><p class="hint">A trained therapist builds the steps with you.</p></div>
+<div data-h="med" class="hide"><h3>Medicine: only with a doctor</h3><p>Doctors often use medicines called SSRIs. A 2021 analysis of 11 trials found that benefit rose up to about 40 mg of fluoxetine-equivalent a day, while drop-outs from side effects grew at higher doses.<sup><a href="#ref-8">[8]</a></sup> Adding ERP to medicine worked better than medicine alone across 21 trials with 1,113 patients.<sup><a href="#ref-3">[3]</a></sup> Never start, stop or change a medicine on your own.</p></div>
+<div data-h="online" class="hide"><h3>Online and self-help programmes</h3><p>Across 17 studies, about 82% of adults were satisfied with online CBT. About 28% did not finish it, and programmes with a clinician were better liked than self-guided ones.<sup><a href="#ref-9">[9]</a></sup> Unguided self-help gave smaller benefits than guided help, but they were still moderate.<sup><a href="#ref-2">[2]</a></sup> If you try a programme, tell your doctor.</p></div>
+<div data-h="family" class="hide"><h3>Family and friends</h3><p>Families often help by giving reassurance or waiting while a ritual finishes. In a 2025 review of 39 studies, about 95% of families did this at least monthly, and nearly half did so daily.<sup><a href="#ref-10">[10]</a></sup> It comes from love. Ask the treating team how to support without taking part in rituals.</p></div>
+<div data-h="body" class="hide"><h3>Body and mind</h3><p>Exercise is not a proven treatment for OCD. A 2023 review of six small studies saw large drops in symptoms after exercise, but most had no comparison group.<sup><a href="#ref-11">[11]</a></sup> A 2026 review of controlled trials found no clear effect on OCD.<sup><a href="#ref-12">[12]</a></sup> Enjoy movement for mood and health, as an extra and not a replacement for treatment.</p></div>
+</div>
+
+<h2>Frequently asked questions</h2>
+<div id="faq"></div>
+
+<section id="refs1" class="card"><details class="refd"><summary><h2 style="margin:0;display:inline;border:0;padding:0">References</h2> <small>tap to open</small></summary><ol class="refs" data-refs></ol></details><p class="hint">The evidence on this page was gathered from recent studies and is reviewed periodically and updated.</p></section>
+<p class="disc">Developed by Medindia Content Team. This tool is for information only. It is not a diagnosis and does not replace advice from a doctor or mental health professional.</p>
+</main>
+
+<!-- ===================== PAGE 2: RESULT ===================== -->
+<main id="view-result" class="hide">
+<nav class="rtabs noprint" aria-label="Result sections"><button type="button" data-go="top">📊 Result</button><button type="button" data-go="games">🎮 Games</button><button type="button" class="retake">↻ Take test again</button></nav>
+<h1><span class="ki"></span>Your OCD Self-Check Result</h1>
+<section class="card"><div class="hero">
+  <div><svg id="gauge" viewBox="0 0 220 130" role="img" aria-label="OCD-type score gauge"></svg></div>
+  <div><div class="rintro"><span class="kid-slot"></span><span class="badge" id="rBadge"></span></div>
+  <h2 id="rHead" style="margin:.4em 0 .2em"></h2><p id="rSay" style="margin:0"></p><p style="margin:8px 0 0"><button type="button" class="chip say" id="sayRes" aria-pressed="false">🔊 Read my result aloud</button></p>
+  <div class="stat"><button type="button" class="tile" data-t="ocd" aria-pressed="false"><small>OCD-type score (of 60)</small><b id="sOcd"></b></button><button type="button" class="tile" data-t="hoard" aria-pressed="false"><small>Hoarding score (of 12)</small><b id="sHoard"></b></button><button type="button" class="tile" data-t="total" aria-pressed="false"><small>Total (of 72)</small><b id="sTot"></b></button></div>
+  <p id="tileOut" class="hint" style="margin:8px 0 0" aria-live="polite">Tap a number to see what it means.</p></div>
+</div>
+<div class="row noprint" style="margin-top:16px;flex-wrap:wrap"><button class="btn alt" id="again">← Change my answers</button><a class="btn" href="#games" id="toGames" style="background:var(--teal);color:#fff;border:0">🎮 Play the games</a><button class="btn alt" id="copyRes">Copy my result</button><button class="btn alt" onclick="window.print()">Print</button><span id="copyRes2" class="hint"></span></div></section>
+
+<div class="callout warn noprint"><b>This is not a diagnosis.</b> If you are feeling very low or thinking of harming yourself, call Tele-MANAS free on <b>14416</b> or <b>1-800-891-4416</b> (India, 24 hours), or your local emergency number.</div>
+
+<h2>Your six areas</h2>
+<p class="hint">Each area is scored 0 to 12. Tap one to see what it covers.</p>
+<div class="subs noprint" id="subs"></div>
+<p id="subOut" class="callout" aria-live="polite" style="margin-top:10px">Tap an area above.</p>
+
+<h2>Your numbers next to the cut-off</h2>
+<div class="callout"><b>Please note:</b> These cut-offs come from research on adults. They are a pointer to talk to a doctor, not a diagnosis, and a score above or below a cut-off can be wrong for any one person.<sup><a href="#ref-1">[1]</a></sup></div>
+<div class="tabletools noprint"><span class="hint" style="align-self:center">Tap a row to highlight it.</span></div>
+<table id="resTbl"><thead><tr><th>Measure</th><th>Your result</th><th>Research cut-off</th><th>Status</th></tr></thead><tbody></tbody></table>
+<p class="hint">Scores follow the OCI-R.<sup><a href="#ref-2">[2]</a></sup> Cut-offs are from a 2015 evaluation of 474 people.<sup><a href="#ref-1">[1]</a></sup></p>
+
+<h2>What does my result mean?</h2>
+<div class="card" id="meaning"></div>
+
+<h2>Why might a score be high or low?</h2>
+<p>Tap a reason to read more.</p>
+<div class="tabletools noprint" id="whyTabs"></div>
+<div class="card" id="whyOut">Pick a reason above.</div>
+
+<h2 class="noprint">Build a step ladder, the way ERP is planned</h2>
+<div class="box noprint">
+<p style="margin:0 0 8px">Therapists use a “step ladder” to plan ERP. Type a situation, slide to rate how hard it feels, and add it. Your steps sort themselves from easiest to hardest.</p>
+<div class="grid"><div><label for="ldTxt">Situation</label><input id="ldTxt" type="text" maxlength="50" placeholder="e.g. Touch a door handle"></div>
+<div><label for="ldR">How hard does it feel? <output id="ldO">5</output> out of 10</label><input type="range" id="ldR" min="0" max="10" value="5"></div></div>
+<div class="row" style="margin-top:10px;flex-wrap:wrap"><button class="btn alt" type="button" id="ldAdd">Add to ladder</button><button class="btn alt" type="button" id="ldClr">Clear</button></div>
+<ol id="ldList" class="ladder" aria-live="polite"></ol>
+<p class="hint">Just to learn the idea. Do not practise the harder steps alone. A therapist plans them with you. Nothing is saved.</p></div>
+
+<h2>Habits that match your result</h2>
+<div class="tabletools noprint" id="lifeTabs">
+<button class="chip" aria-pressed="true" data-l="all">All</button><button class="chip" aria-pressed="false" data-l="talk">🗣 Talk</button><button class="chip" aria-pressed="false" data-l="track">📝 Track</button><button class="chip" aria-pressed="false" data-l="family">🤝 Family</button><button class="chip" aria-pressed="false" data-l="body">🚶 Body</button></div>
+<p class="hint noprint swipe">Swipe sideways to see all tips.</p>
+<div class="cards3" id="lifeCards">
+<div class="mini" data-l="talk"><h4>🗣 Ask about ERP</h4><p>Ask whether CBT with exposure and response prevention is available near you or online.<sup><a href="#ref-3">[3]</a></sup></p></div>
+<div class="mini" data-l="talk"><h4>🩺 Tell a doctor</h4><p>Show this result and say how long it has been going on and how it affects your day. Shame is a common reason people wait years, and doctors hear this often.<sup><a href="#ref-4">[4]</a></sup></p></div>
+<div class="mini" data-l="track"><h4>📝 Note the time</h4><p>For one week, jot down how much time rituals take and what they stop you doing. This helps your doctor see the full picture.</p></div>
+<div class="mini" data-l="family"><h4>🤝 Share this page</h4><p>Show a trusted person your result. Ask them how best to support you, and ask your team how families can help without joining rituals.<sup><a href="#ref-5">[5]</a></sup></p></div>
+<div class="mini" data-l="body"><h4>🚶 Move and rest</h4><p>Exercise is not proven to treat OCD, but it is good for mood and health. Keep it as an extra.<sup><a href="#ref-6">[6]</a></sup><sup><a href="#ref-7">[7]</a></sup></p></div>
+<div class="mini" data-l="track"><h4>📱 Try guided online help</h4><p>If clinics are far away, ask about guided online CBT. Guided programmes were better liked than self-guided ones.<sup><a href="#ref-8">[8]</a></sup></p></div>
+</div>
+
+<h2>Fact: OCD help comes in more forms than weekly clinic visits</h2>
+<p class="fold">A 2026 network analysis of 61 trials found that CBT works in several formats, including remote and family-involved ones, so help does not always mean weekly visits to a clinic.<sup><a href="#ref-3">[3]</a></sup> A 2025 scoping review of 51 studies found that people often waited many years, and that learning about OCD and having family encouragement shortened the wait.<sup><a href="#ref-4">[4]</a></sup></p>
+
+<section id="games"><h2>🎮 Play and learn: OCD games</h2><p>Short games that show how the OCD loop works. Each takes about a minute.</p>
+<div class="card game noprint"><h3>Game 1: Wait it out</h3>
+<p class="hint"><b>How to play:</b> 1) An urge shows up. 2) Tap <b>Wait and watch</b> or <b>Do the ritual</b>. 3) See what happens to the urge. Three rounds, no timer pressure.</p>
+<div class="uface" id="uFace" aria-hidden="true">🙂</div>
+<p class="usay" id="uSay" aria-live="polite"></p>
+<div class="meter"><i id="uUrge"></i></div><p class="hint" id="uLbl"></p>
+<p id="uMsg" class="callout hide" aria-live="polite"></p><p class="hint" id="uCount"></p>
+<div class="opt" id="uBtns"><button class="btn" id="uWait" type="button">⏳ Wait and watch</button><button class="btn alt" id="uGive" type="button">🔁 Do the ritual</button></div>
+<button class="btn hide" id="uNext" type="button">Next urge →</button> <button class="btn" id="uAgain" type="button">▶ Start</button>
+<p class="hint">A game to learn the idea. Real ERP is planned step by step with a therapist.</p></div>
+<div class="card game noprint"><h3>Game 2: Obsession or compulsion?</h3>
+<p>Eight cards. Is it the unwanted thought (obsession) or the thing you do to ease it (compulsion)?</p>
+<div class="game-card" id="g3Text"></div>
+<div class="opt" id="g3Btns"><button class="btn" data-a="1" type="button">💭 Obsession</button><button class="btn alt" data-a="0" type="button">🔁 Compulsion</button></div>
+<p id="g3Msg" class="callout hide"></p>
+<p><b id="g3Score"></b> <button class="btn alt hide" id="g3Again" type="button">Play again</button> <button class="btn alt say" id="g3Say" type="button" aria-pressed="false">🔊 Read this card</button></p></div>
+<details class="more noprint"><summary>More quizzes: helps or feeds OCD, myth or fact</summary><div class="card noprint"><h3>🧠 Game 1: Helps or feeds OCD?</h3>
+<p>Six cards. Does this move help you break the OCD loop, or feed it?</p>
+<div class="game-card" id="g1Text"></div>
+<div class="opt" id="g1Btns"><button class="btn" data-a="1">Helps</button><button class="btn alt" data-a="0">Feeds OCD</button></div>
+<p id="g1Msg" class="callout hide"></p>
+<p><b id="g1Score"></b> <button class="btn alt hide" id="g1Again">Play again</button> <button class="btn alt say" id="g1Say" type="button" aria-pressed="false">🔊 Read this card</button></p></div>
+<div class="card noprint"><h3>🔍 Game 2: Myth or fact?</h3>
+<p>Six cards. Tap what you think.</p>
+<div class="game-card" id="g2Text"></div>
+<div class="opt" id="g2Btns"><button class="btn" data-a="1">Fact</button><button class="btn alt" data-a="0">Myth</button></div>
+<p id="g2Msg" class="callout hide"></p>
+<p><b id="g2Score"></b> <button class="btn alt hide" id="g2Again">Play again</button> <button class="btn alt say" id="g2Say" type="button" aria-pressed="false">🔊 Read this card</button></p></div></details></section>
+
+<h2>Questions about your result</h2>
+<div id="faq2"></div>
+
+<div class="card noprint" style="text-align:center"><h2 style="margin-top:0">Want to check again?</h2><p class="hint">Start fresh with all 18 questions.</p><button type="button" class="btn retake">↻ Take the test again</button></div>
+
+<div class="card noprint"><h2 style="margin-top:0">Share this tool with friends</h2>
+<div class="share" id="share"></div></div>
+
+<div class="card noprint"><h2 style="margin-top:0">Subscribe to Medindia</h2>
+<p>Get simple, trusted health tips in your inbox.</p>
+<form action="https://www.medindia.net/e-newsletter/empowering-better-health/index.htm" method="get" class="row" style="flex-wrap:wrap"><input type="email" name="email" placeholder="Your email" style="max-width:320px" aria-label="Email"><button class="btn" type="submit">Subscribe</button></form>
+<p class="hint">Follow us: <a href="https://www.facebook.com/medindiacom">Facebook</a> · <a href="https://twitter.com/medindia">X</a> · <a href="https://www.instagram.com/medindia/">Instagram</a> · <a href="https://www.linkedin.com/in/medindia">LinkedIn</a> · <a href="https://www.youtube.com/channel/UCrjzUwilbT1xuW-0FKYjT2A?sub_confirmation=1">YouTube</a> · <a href="https://pinterest.com/medindia/">Pinterest</a> · <a href="https://whatsapp.com/channel/0029VaksZPVGufInV7V4eq44">WhatsApp</a></p></div>
+
+<section class="card"><details class="refd"><summary><h2 style="margin:0;display:inline;border:0;padding:0">References</h2> <small>tap to open</small></summary><ol class="refs" data-refs></ol></details><p class="hint">The evidence on this page was gathered from recent studies and is reviewed periodically and updated.</p></section>
+<p class="disc">This result is an estimate for information only. It is not a diagnosis. Talk to a doctor or mental health professional before making any change to your care.</p>
+<button class="fab noprint" id="fab" type="button">🎮 Games ↓</button>
+</main>
+</div>
+
+<footer><div class="wrap">© Medindia. All information is for education only and should not be used to diagnose or treat any condition. <a href="https://www.medindia.net/disclaimer.asp">Full disclaimer</a> · <a href="https://www.medindia.net/medindiaprivacy.asp">Privacy</a> · <a href="https://www.medindia.net/terms-of-use.asp">Terms</a></div></footer>
+
+<script>
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const REFS=[
+'Foa, E. B., Huppert, J. D., Leiberg, S., Langner, R., Kichic, R., Hajcak, G., &amp; Salkovskis, P. M. (2002). The Obsessive-Compulsive Inventory: Development and validation of a short version. <i>Psychological Assessment, 14</i>(4), 485–496. <a href="https://doi.org/10.1037/1040-3590.14.4.485">https://doi.org/10.1037/1040-3590.14.4.485</a>',
+'Wootton, B. M., Diefenbach, G. J., Bragdon, L. B., Steketee, G., Frost, R. O., &amp; Tolin, D. F. (2015). A contemporary psychometric evaluation of the Obsessive Compulsive Inventory–Revised (OCI-R). <i>Psychological Assessment, 27</i>(3), 874–882. <a href="https://doi.org/10.1037/pas0000075">https://doi.org/10.1037/pas0000075</a>',
+'Wongbusarakum, K., Schug, E., Visher, T. C., Sulivan-Pascual, K., Mirkis, M., Rhee, P., &amp; Frank, A. C. (2025). Factors associated with delays in assessment and treatment of obsessive-compulsive disorder: A scoping review. <i>Journal of Obsessive-Compulsive and Related Disorders, 47</i>, Article 100982. <a href="https://doi.org/10.1016/j.jocrd.2025.100982">https://doi.org/10.1016/j.jocrd.2025.100982</a>',
+'Wang, Y., Miguel, C., Ciharova, M., et al. (2026). Effectiveness and acceptability of cognitive–behavioural therapy delivery formats for obsessive–compulsive disorder: Network meta-analysis. <i>The British Journal of Psychiatry, 228</i>(3), 252–262. <a href="https://doi.org/10.1192/bjp.2024.197">https://doi.org/10.1192/bjp.2024.197</a>',
+'Mao, L., Hu, M., Luo, L., Wu, Y., Lu, Z., &amp; Zou, J. (2022). The effectiveness of exposure and response prevention combined with pharmacotherapy for obsessive-compulsive disorder: A systematic review and meta-analysis. <i>Frontiers in Psychiatry, 13</i>, Article 973838. <a href="https://doi.org/10.3389/fpsyt.2022.973838">https://doi.org/10.3389/fpsyt.2022.973838</a>',
+'Waks, S., Moses, K., &amp; Wootton, B. M. (2024). Acceptability of internet-delivered cognitive behavioural therapy for adults with symptoms of obsessive-compulsive disorder: A meta-analysis. <i>British Journal of Clinical Psychology, 63</i>(3), 315–329. <a href="https://doi.org/10.1111/bjc.12462">https://doi.org/10.1111/bjc.12462</a>',
+'Pellegrini, L., Tardivo, G., Zandonella Callegher, R., Strani, F., Fineberg, N. A., &amp; Albert, U. (2025). Pooled frequency meta-analysis of family-accommodation (FA) in obsessive-compulsive disorder (OCD): A pervasive phenomenon. <i>Asian Journal of Psychiatry, 114</i>, Article 104744. <a href="https://doi.org/10.1016/j.ajp.2025.104744">https://doi.org/10.1016/j.ajp.2025.104744</a>',
+'Xu, J., Hao, Q., Qian, R., et al. (2021). Optimal dose of serotonin reuptake inhibitors for obsessive-compulsive disorder in adults: A systematic review and dose–response meta-analysis. <i>Frontiers in Psychiatry, 12</i>, Article 717999. <a href="https://doi.org/10.3389/fpsyt.2021.717999">https://doi.org/10.3389/fpsyt.2021.717999</a>',
+'Bottoms, L., Prat Pons, M., Fineberg, N., et al. (2023). Effects of exercise on obsessive-compulsive disorder symptoms: A systematic review and meta-analysis. <i>International Journal of Psychiatry in Clinical Practice, 27</i>(3), 232–242. <a href="https://doi.org/10.1080/13651501.2022.2151474">https://doi.org/10.1080/13651501.2022.2151474</a>',
+'Deng, J., Ma, Y., Zhou, L., Zhang, S., … Ao, Z. (2026). The effects of exercise on obsessive-compulsive disorder and bipolar disorder: A systematic review and meta-analysis. <i>BMC Psychiatry, 26</i>, Article 544. <a href="https://doi.org/10.1186/s12888-026-08065-2">https://doi.org/10.1186/s12888-026-08065-2</a>',
+'Hinuma, S., Ogishima, H., Shimada, H., Tanaka, Y., Osao, M., Moriishi, C., &amp; Obata, S. (2025). Classification of intrusive thought patterns based on differences in the mechanisms of occurrence and persistence. <i>Frontiers in Psychiatry, 16</i>, Article 1520496. <a href="https://doi.org/10.3389/fpsyt.2025.1520496">https://doi.org/10.3389/fpsyt.2025.1520496</a>',
+'Porandla, K., Nagpal, R., &amp; Garg, S. (2025). Expert opinion on challenges in the diagnosis and treatment of OCD in India. <i>International Journal of Research in Medical Sciences, 13</i>(1), 522–531.'
+];
+const P1=[1,4,5,11,2,3,12,8,6,7,9,10],P2=[2,1,4,3,7,9,10,6,11,5]; /* old reference numbers, listed in order of first appearance on each page */
+const mkRefs=(o,pre)=>o.map((n,i)=>`<li id="${pre}ref-${i+1}">${REFS[n-1]}</li>`).join('');
+$$('#view-input [data-refs]').forEach(ol=>ol.innerHTML=mkRefs(P1,''));$$('#view-result [data-refs]').forEach(ol=>ol.innerHTML=mkRefs(P2,'r2-'));
+const PAGE='https://www.medindia.net/doctors/clinical_cal/ocd.asp';
+const cite1=h=>h.replace(/\[(\d+)\]/g,(m,n)=>{n=P1.indexOf(+n)+1;return `<sup><a href="#ref-${n}">[${n}]</a></sup>`});
+const cite2=h=>h.replace(/\[(\d+)\]/g,(m,n)=>{n=P2.indexOf(+n)+1;return `<sup><a href="#r2-ref-${n}">[${n}]</a></sup>`});
+function fixRefs(){$$('#view-result sup a').forEach(a=>a.setAttribute('href',a.getAttribute('href').replace(/#ref-/,'#r2-ref-')))}fixRefs();
+
+/* ---------- FAQ ---------- */
+const FAQ1=[
+['What does my OCI-R score mean?','The OCD-type score (0 to 60) is compared with a research cut-off of 12, and the hoarding score (0 to 12) with a cut-off of 6.[2] A score at or above a cut-off means your answers look like those of many people with OCD or hoarding difficulties, so it is worth talking to a doctor. It does not mean you have OCD.'],
+['Is this test a diagnosis?','No. Only a doctor or mental health professional can diagnose OCD after talking with you. This tool is a self-check that helps you decide whether to ask for help.'],
+['Why is hoarding scored separately?','Hoarding disorder is treated as a separate condition from OCD, and the three hoarding questions work better as their own short scale with their own cut-off.[2]'],
+['Do unwanted thoughts mean I am dangerous or a bad person?','No. Unwanted thoughts are common, including in people without OCD.[11] A thought is not an action. If the thoughts upset you or take up your time, a professional can help.'],
+['Can OCD be treated?','Yes. CBT with exposure and response prevention, medicine, or both help many people, although results differ from person to person.[4][5] Treatment is planned by a doctor or therapist.'],
+['Can I treat OCD with self-help alone?','Self-help can give some benefit, but unguided self-help worked less well than guided help in a 2026 network analysis.[4] A programme with clinician support is a better choice. Tell your doctor about any programme you try.'],
+['Is this tool for children?','It is made for adults. If you are worried about a child, please see a doctor or a child mental health professional.'],
+['Is my score saved or shared?','No. Everything stays in your browser and is lost when you close the page. Copy or print your result if you want to keep it.']
+];
+const FAQ2=[
+['My score is at or above the cut-off. What now?','Do not panic. It is worth booking a visit with a doctor, psychiatrist or psychologist. Take your result and a few notes about how the thoughts and habits affect your day.'],
+['My score is below the cut-off but I am still worried. What now?','A cut-off is not a wall. Roughly 1 in 6 people with OCD score below 12.[2] If thoughts or habits distress you or limit your life, talk to a doctor anyway.'],
+['Can stress or low mood change my score?','Yes. Stress, anxiety and low mood can raise your answers, and some other conditions can look like OCD. A professional can tell them apart.'],
+['How often should I check?','There is no set schedule. If you start treatment, your team may repeat questionnaires to follow your progress. Your answers here cover only the past month.'],
+['Should my family do my rituals or give reassurance?','Many families do, out of love.[7] Ask your treating team how to respond kindly without joining the rituals.']
+];
+const renderFaq=(el,arr,c)=>{el.innerHTML=arr.map(([q,a])=>`<details><summary>${q}</summary><p>${c(a)}</p></details>`).join('')};
+renderFaq($('#faq'),FAQ1,cite1);renderFaq($('#faq2'),FAQ2,cite2);
+$('#faq-ld').textContent=JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":FAQ1.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a.replace(/\[\d+\]/g,'')}}))});
+
+/* ---------- questions (OCI-R, Foa et al., 2002) ---------- */
+const Q=[
+['📦','I have saved up so many things that they get in the way.'],
+['🔍','I check things more often than necessary.'],
+['📐','I get upset if objects are not arranged properly.'],
+['🔢','I feel compelled to count while I am doing things.'],
+['🧤','I find it difficult to touch an object when I know it has been touched by strangers or certain people.'],
+['💭','I find it difficult to control my own thoughts.'],
+['🧺','I collect things I don’t need.'],
+['🚪','I repeatedly check doors, windows, drawers, etc.'],
+['🗂','I get upset if others change the way I have arranged things.'],
+['🔢','I feel I have to repeat certain numbers.'],
+['🧼','I sometimes have to wash or clean myself simply because I feel contaminated.'],
+['💭','I am upset by unpleasant thoughts that come into my mind against my will.'],
+['🗑','I avoid throwing things away because I am afraid I might need them later.'],
+['🔌','I repeatedly check gas and water taps and light switches after turning them off.'],
+['📐','I need things to be arranged in a particular way.'],
+['🔢','I feel that there are good and bad numbers.'],
+['🧼','I wash my hands more often and longer than necessary.'],
+['💭','I frequently get nasty thoughts and have difficulty in getting rid of them.']
+];
+const LAB=['Not at all','A little','Moderately','A lot','Extremely'];
+const SUB={wash:[5,11,17],check:[2,8,14],order:[3,9,15],obs:[6,12,18],neut:[4,10,16],hoard:[1,7,13]};
+const SUBN={wash:'Washing',check:'Checking',order:'Ordering',obs:'Obsessing',neut:'Neutralizing',hoard:'Hoarding'};
+const SUBT={wash:'Washing: worry about germs or feeling contaminated, and washing or cleaning more than needed (questions 5, 11 and 17).',check:'Checking: checking things like doors, switches or taps again and again (questions 2, 8 and 14).',order:'Ordering: feeling upset if things are not arranged just right (questions 3, 9 and 15).',obs:'Obsessing: unwanted thoughts that are hard to control (questions 6, 12 and 18).',neut:'Neutralizing: counting or repeating numbers to feel safe or to cancel something out (questions 4, 10 and 16).',hoard:'Hoarding: saving or collecting things and finding it hard to throw them away (questions 1, 7 and 13). It is scored separately from the OCD-type score.'};
+let A=Array(18).fill(null),qi=0,LAST=null,lock=false;
+$('#qAns').innerHTML=LAB.map((l,i)=>`<button type="button" data-v="${i}"><b>${i}</b><span>${l}</span></button>`).join('');
+function qShow(){
+  const n=A.filter(x=>x!==null).length;
+  $('#qBar').style.width=(n/18*100)+'%';
+  $('#qCount').textContent=`Question ${qi+1} of 18 · ${n} answered`;
+  $('#qEmoji').textContent=Q[qi][0];$('#qText').textContent=Q[qi][1];
+  $$('#qAns button').forEach(b=>b.setAttribute('aria-pressed',A[qi]===+b.dataset.v));
+  $('#qBack').disabled=qi===0;$('#qDone').hidden=n<18;$('#err-q').textContent='';
+}
+function choose(v){
+  if(lock)return;A[qi]=v;
+  const n=A.filter(x=>x!==null).length;
+  if(qi<17){lock=true;qShow();setTimeout(()=>{qi++;lock=false;qShow()},230)}
+  else{qShow();if(n===18)$('#qDone').focus()}
+}
+$('#qAns').addEventListener('click',e=>{const b=e.target.closest('button');if(b)choose(+b.dataset.v)});
+$('#qz').addEventListener('keydown',e=>{if(/^[0-4]$/.test(e.key)&&!/INPUT|TEXTAREA/.test(e.target.tagName))choose(+e.key)});
+$('#qBack').onclick=()=>{if(qi>0){qi--;qShow()}};
+$('#fillEx').onclick=()=>{A=[1,2,1,0,2,2,0,2,1,0,2,3,0,2,1,0,2,2];qi=17;qShow()};
+$('#qDone').onclick=()=>{
+  const miss=A.indexOf(null);if(miss>=0){qi=miss;qShow();$('#err-q').textContent=`Please answer every question. Question ${miss+1} is still blank.`;return}
+  LAST=score();showResult(LAST)};
+function score(){
+  const sub={};for(const k in SUB)sub[k]=SUB[k].reduce((t,q)=>t+A[q-1],0);
+  const ocd=sub.wash+sub.check+sub.order+sub.obs+sub.neut;
+  return {sub,ocd,hoard:sub.hoard,tot:ocd+sub.hoard,ocdHi:ocd>=12,hoardHi:sub.hoard>=6};
+}
+qShow();
+
+/* ---------- glossary + loop ---------- */
+const GL={'Obsession':'An unwanted thought, image or urge that keeps coming back and causes distress.','Compulsion':'Something you feel you must do again and again, such as washing or checking, to ease distress.','Intrusive thought':'A thought that pops into your mind without being invited. Many people have them.','ERP':'Exposure and response prevention. A kind of CBT where you face a trigger in small steps and practise not doing the ritual.','SSRI':'A type of medicine often used for OCD. A doctor decides the dose.','Reassurance seeking':'Asking again and again to be told that everything is fine or safe.','Accommodation':'When family or friends change what they do to ease your OCD distress, for example by joining rituals or giving reassurance.'};
+$('#gloss').innerHTML=Object.keys(GL).map(k=>`<button class="chip" aria-pressed="false">${k}</button>`).join('');
+$('#gloss').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  $$('#gloss button').forEach(x=>x.setAttribute('aria-pressed',x===b));$('#glossOut').innerHTML=`<b>${b.textContent}:</b> ${GL[b.textContent]}`});
+const LOOP=[['1 Trigger','Something sets it off: a door handle, a news story, a quiet moment.'],['2 Obsession','An unwanted thought, image or urge pops up, such as “My hands are dirty” or “Did I lock the door?”'],['3 Distress','Fear, doubt or discomfort rises. It feels as if you must do something now.'],['4 Ritual','You do a compulsion: wash, check, count, arrange or ask for reassurance.'],['5 Short relief','You feel better for a short while, but the urge tends to come back and the loop starts again. ERP breaks the loop by facing the trigger without doing the ritual.[4]']];
+let lp=0;
+$('#loopTabs').innerHTML=LOOP.map((l,i)=>`<button class="chip" aria-pressed="false" data-i="${i}">${l[0]}</button>`).join('');
+function loopShow(i){lp=i;$$('#loopTabs button').forEach((b,j)=>b.setAttribute('aria-pressed',j===i));$('#loopOut').innerHTML=cite1(`<b>${LOOP[i][0].slice(2)}:</b> ${LOOP[i][1]}`)}
+$('#loopTabs').addEventListener('click',e=>{const b=e.target.closest('button');if(b)loopShow(+b.dataset.i)});
+$('#loopNext').onclick=()=>loopShow((lp+1)%LOOP.length);loopShow(0);
+
+/* ---------- symptoms + what helps ---------- */
+const SYM=['Washing or cleaning much more than needed','Checking locks, switches or appliances again and again','Unwanted thoughts, images or urges that upset you','Needing things in a certain order or exactly “right”','Counting or repeating words or numbers a certain way','Asking others for reassurance again and again','Avoiding places or objects out of fear of contamination or harm','Finding it very hard to throw things away','Spending a lot of time on rituals each day','Rituals that make you late or affect work, study or relationships'];
+$('#sym').innerHTML=SYM.map((s,i)=>`<label><input type="checkbox" value="${i}">${s}</label>`).join('');
+$('#sym').addEventListener('change',()=>{const n=$$('#sym input:checked').length,o=$('#symOut');
+  o.className='callout'+(n>=3?' warn':'');
+  o.textContent=n===0?'Tick anything you have noticed lately.':n<3?`You ticked ${n}. If it keeps bothering you, mention it to a doctor.`:`You ticked ${n}. Several signs together are worth telling a doctor about soon.`});
+$('#habTabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  $$('#habTabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  $$('#hab>div').forEach(d=>d.classList.toggle('hide',d.dataset.h!==b.dataset.h))});
+
+/* ---------- result ---------- */
+function gauge(v){
+  const max=60,r=84,cx=110,cy=110,pt=(val,rad)=>{const an=Math.PI*(1-val/max);return [cx+rad*Math.cos(an),cy-rad*Math.sin(an)]};
+  const arc=(a,b,col)=>{const [x0,y0]=pt(a,r),[x1,y1]=pt(b,r);return `<path d="M${x0} ${y0} A${r} ${r} 0 0 1 ${x1} ${y1}" stroke="${col}" stroke-width="16" fill="none"/>`};
+  const [nx,ny]=pt(Math.min(v,max),r-8),[lx,ly]=pt(12,r+17);
+  return arc(0,12,'#8fd0ab')+arc(12,60,'#f1c97a')+
+   `<line x1="${cx}" y1="${cy}" x2="${nx}" y2="${ny}" stroke="#3b3a8f" stroke-width="4" stroke-linecap="round"/><circle cx="${cx}" cy="${cy}" r="7" fill="#3b3a8f"/>`+
+   `<text x="22" y="126" font-size="11" fill="#5a6776">0</text><text x="${lx-6}" y="${ly+4}" font-size="11" fill="#5a6776">12</text><text x="188" y="126" font-size="11" fill="#5a6776">60</text>`;
+}
+const WHY={
+ 'Stress and mood':'Stress, anxiety and low mood can raise your answers. A professional can help sort out which is which.',
+ 'Other conditions':'Some other conditions can look like OCD, and some can occur alongside it. Only a professional can tell them apart.',
+ 'A hard month':'The questions cover only the past month. A very stressful month can push a score up, and a calm one can pull it down.',
+ 'Customs and beliefs':'Washing, tidiness or counting can be part of religious or family customs. Those are not OCD unless they cause distress or take over your life.',
+ 'How you read the questions':'The questions ask how much something has bothered you, not how often it happens. Re-read them if you answered by frequency.'
+};
+function showResult(r){
+  stopSay();
+  $('#view-input').classList.add('hide');$('#view-result').classList.remove('hide');
+  try{history.replaceState(null,'','#result')}catch(_){}window.scrollTo({top:0});
+  const hi=r.ocdHi||r.hoardHi;
+  $('#gauge').innerHTML=gauge(r.ocd);
+  $('#rBadge').textContent=hi?'At or above a cut-off: worth talking to a doctor':'Below the cut-offs';
+  $('#rBadge').className='badge '+(hi?'a':'g');
+  $('#rHead').textContent=`Your OCD-type score is ${r.ocd} out of 60`;
+  $('#rSay').textContent=r.ocdHi?'This is at or above the research cut-off of 12. It is a pointer, not a diagnosis.':'This is below the research cut-off of 12. It is a pointer, not a diagnosis.';
+  $('#sOcd').textContent=r.ocd;$('#sHoard').textContent=r.hoard;$('#sTot').textContent=r.tot;
+  $('#tileOut').textContent='Tap a number to see what it means.';$$('.tile').forEach(x=>x.setAttribute('aria-pressed','false'));
+  $('#subs').innerHTML=Object.keys(SUB).map(k=>`<button type="button" class="sub" data-k="${k}" aria-pressed="false"><span>${SUBN[k]}</span><span class="meter" aria-hidden="true"><i style="width:${r.sub[k]/12*100}%"></i></span><b>${r.sub[k]}/12</b></button>`).join('');
+  $('#subOut').textContent='Tap an area above.';
+  const st=(h)=>h?'⚠️ At or above':'✅ Below';
+  $('#resTbl tbody').innerHTML=
+   `<tr><td>OCD-type score</td><td>${r.ocd} / 60</td><td>12</td><td>${st(r.ocdHi)}</td></tr>`+
+   `<tr><td>Hoarding score</td><td>${r.hoard} / 12</td><td>6</td><td>${st(r.hoardHi)}</td></tr>`+
+   `<tr><td>Total (all 18)</td><td>${r.tot} / 72</td><td>No cut-off used here</td><td>For your doctor</td></tr>`;
+  $$('#resTbl tbody tr').forEach(tr=>tr.onclick=()=>tr.classList.toggle('hl'));
+  let h='';
+  if(r.ocdHi)h+=`<h3 style="margin-top:0">Your OCD-type score is at or above the cut-off</h3><p><b>In simple words:</b> your answers look like those of many people with OCD. That does not mean you have OCD. About 1 in 6 people without OCD also score this high.[2] The next step is a talk with a doctor, psychiatrist or psychologist.</p><ul><li>Take this result with you.</li><li>Note how much time the thoughts and rituals take and what they stop you doing.</li><li>Ask about CBT with exposure and response prevention.[4]</li><li>Tell someone you trust how you feel.</li></ul>`;
+  else h+=`<h3 style="margin-top:0">Your OCD-type score is below the cut-off</h3><p><b>In simple words:</b> your answers look less like those of people with OCD. But roughly 1 in 6 people with OCD still score below 12, so if the thoughts or habits worry you, talk to a doctor anyway.[2]</p><ul><li>Look after your sleep, stress and mood.</li><li>If things change, you can check again in a few weeks.</li><li>Read the signs checklist on the first page.</li></ul>`;
+  if(r.hoardHi)h+=`<h3>Your hoarding score is at or above the cut-off</h3><p>Saving things and finding it hard to let go seems to be causing you distress. Hoarding difficulties are assessed separately from OCD, so mention it to your doctor.[2]</p>`;
+  h+=`<p class="hint">These cut-offs are for adults. A score is only one part of the picture.</p>`;
+  $('#meaning').innerHTML=cite2(h);
+  $('#whyTabs').innerHTML=Object.keys(WHY).map(k=>`<button class="chip" aria-pressed="false" data-w="${k}">${k}</button>`).join('');
+  $('#whyOut').textContent='Pick a reason above.';
+  g1.init();g2.init();g3.init();urge.init();fixRefs();
+}
+const TILE={ocd:'OCD-type score: your washing, checking, ordering, obsessing and counting answers added up (0 to 60). The research cut-off is 12.[2]',hoard:'Hoarding score: your three hoarding answers added up (0 to 12). The research cut-off is 6.[2]',total:'Total: all 18 answers added up (0 to 72). No cut-off is used on this page. The two scores to the left are easier to use.'};
+$('.stat').addEventListener('click',e=>{const b=e.target.closest('.tile');if(!b)return;$$('.tile').forEach(x=>x.setAttribute('aria-pressed',x===b));$('#tileOut').innerHTML=cite2(TILE[b.dataset.t]);fixRefs()});
+$('#subs').addEventListener('click',e=>{const b=e.target.closest('.sub');if(!b)return;$$('#subs .sub').forEach(x=>x.setAttribute('aria-pressed',x===b));$('#subOut').textContent=SUBT[b.dataset.k]});
+$('#whyTabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  $$('#whyTabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));$('#whyOut').innerHTML=`<h3 style="margin-top:0">${b.dataset.w}</h3><p style="margin:0">${WHY[b.dataset.w]}</p>`});
+$('#again').onclick=()=>{stopSay();$('#view-result').classList.add('hide');$('#view-input').classList.remove('hide');try{history.replaceState(null,'',location.pathname)}catch(_){}window.scrollTo({top:0})};
+window.addEventListener('hashchange',()=>{if(!location.hash&&!$('#view-result').classList.contains('hide'))$('#again').click()});
+$('#copyRes').onclick=async()=>{if(!LAST)return;
+  const t=`My OCD self-check (OCI-R): OCD-type score ${LAST.ocd}/60 (research cut-off 12); hoarding score ${LAST.hoard}/12 (cut-off 6). This is not a diagnosis.`;
+  try{await navigator.clipboard.writeText(t);$('#copyRes2').textContent='Copied!'}catch(_){$('#copyRes2').textContent=t}};
+$('#lifeTabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  $$('#lifeTabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  $$('#lifeCards .mini').forEach(c=>c.classList.toggle('hide',b.dataset.l!=='all'&&c.dataset.l!==b.dataset.l))});
+
+/* ---------- step ladder ---------- */
+let LD=[];
+$('#ldR').addEventListener('input',()=>$('#ldO').textContent=$('#ldR').value);
+function ldDraw(){const ol=$('#ldList');ol.textContent='';
+  LD.slice().sort((a,b)=>a.n-b.n).forEach((s,i)=>{const li=document.createElement('li'),b=document.createElement('b');b.textContent=s.n+'/10 ';li.append(b,document.createTextNode(s.t));
+    if(i===0&&LD.length>1){const sp=document.createElement('span');sp.className='hint';sp.textContent=' · easiest: where a therapist would start';li.append(sp)}ol.append(li)})}
+$('#ldAdd').onclick=()=>{const t=$('#ldTxt').value.trim();if(!t||LD.length>=6)return;LD.push({t,n:+$('#ldR').value});$('#ldTxt').value='';ldDraw()};
+$('#ldTxt').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();$('#ldAdd').click()}});
+$('#ldClr').onclick=()=>{LD=[];ldDraw()};
+
+/* ---------- card games ---------- */
+function makeGame(p,cards,msgs){
+  let g={i:0,s:0};const T=$('#'+p+'Text'),B=$('#'+p+'Btns'),M=$('#'+p+'Msg'),S=$('#'+p+'Score'),R=$('#'+p+'Again');
+  const show=()=>{if(g.i>=cards.length){T.textContent='All done!';B.classList.add('hide');S.textContent=`You scored ${g.s} of ${cards.length}. `+(g.s>=5?msgs[0]:g.s>=3?msgs[1]:msgs[2]);R.classList.remove('hide');return}
+    T.innerHTML=`<span class="gem">${cards[g.i][0]}</span><span></span>`;T.lastChild.textContent=cards[g.i][1];S.textContent=`Card ${g.i+1} of ${cards.length}`};
+  const init=()=>{g={i:0,s:0};R.classList.add('hide');B.classList.remove('hide');M.classList.add('hide');show()};
+  B.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||g.i>=cards.length)return;
+    const ok=(+b.dataset.a)===cards[g.i][2];if(ok)g.s++;
+    M.className='callout'+(ok?'':' warn');M.innerHTML=cite2((ok?'✅ Correct. ':'❌ Not quite. ')+cards[g.i][3]);g.i++;show();fixRefs()});
+  R.onclick=init;
+  return {init,text:()=>g.i<cards.length?cards[g.i][1]:'All done.'};
+}
+const g1=makeGame('g1',[
+['🧼','You feel you must wash your hands again “just to be sure”.',0,'Giving in brings short relief, but the urge tends to come back. Therapists help you delay or skip the ritual step by step.'],
+['💭','You notice an unwanted thought, call it “an OCD thought” and carry on with your day.',1,'Noticing a thought without fighting it or acting on it is a skill taught in therapy.'],
+['🗣','You ask your family to reassure you for the tenth time.',0,'Reassurance feels kind and is very common,[7] but it brings only short relief. Ask your care team how family can help.'],
+['⏳','You wait five minutes before doing a ritual.',1,'Delaying is a small step of ERP. It works best when planned with a therapist.'],
+['🩺','You tell your doctor about your thoughts even though you feel ashamed.',1,'Shame is a common reason people wait years. Doctors hear this often.[3]'],
+['🔎','You search online for hours to be 100% certain.',0,'Searching for certainty is another way of seeking reassurance. It rarely ends the doubt.']
+],['🏅 OCD-smart!','Good start.','Keep learning, you can do it.']);
+const g2=makeGame('g2',[
+['🧽','Only people who love cleaning get OCD.',0,'OCD has many forms, such as checking, ordering, counting and unwanted thoughts. Washing is only one.'],
+['💭','Having a strange unwanted thought means you secretly want to act on it.',0,'Unwanted thoughts also happen in people without OCD.[11] A thought is not an action.'],
+['💪','OCD can be treated.',1,'CBT with exposure and response prevention, medicine, or both help many people.[4][5]'],
+['🧠','OCD is a sign of weak character.',0,'OCD is a health condition. Shame makes many people wait years before asking for help.[3]'],
+['⏳','Many people wait years before they get proper treatment.',1,'Reviews report delays of more than 7 years between first symptoms and proper treatment.[3]'],
+['📱','Online therapy with a clinician’s support can help some people.',1,'Guided online CBT was liked by most people in studies, and guided help worked better than unguided self-help.[4][6]']
+],['🏅 Myth buster!','Good start.','Keep learning, you can do it.']);
+
+
+/* ---------- game: wait it out ---------- */
+const SC=[['🔒','You are leaving home. A thought pops up: “Did I lock the door?”'],['🧼','You touched a door handle. A thought pops up: “My hands are dirty.”'],['🤔','You wonder: “Is everything really okay?” You feel like asking someone again.']];
+const urge=(()=>{let s,t;const E=id=>document.getElementById(id);
+ const face=u=>u>75?'😰':u>50?'😟':u>25?'🙂':'😌';
+ const draw=()=>{E('uFace').textContent=s.f||face(s.u);E('uUrge').style.width=s.u+'%';E('uLbl').textContent='How strong the urge feels: '+(s.u>75?'very strong':s.u>50?'strong':s.u>25?'medium':'small')};
+ const say=m=>E('uSay').textContent=m,show=(id,on)=>E(id).classList.toggle('hide',!on);
+ const note=(m,w)=>{const x=E('uMsg');x.textContent=m;x.className='callout'+(m?'':' hide')+(w?' warn':'')};
+ const stop=()=>clearInterval(t);
+ function next(){s.r++;s.ph='rise';s.u=20;s.k=0;s.f='';E('uCount').textContent=`Round ${s.r} of 3 · ⭐ ${s.w}`;say(SC[s.r-1][0]+' '+SC[s.r-1][1]);note('');show('uBtns',1);show('uNext',0);draw()}
+ function done(){s.ph='wait';show('uBtns',0);E('uNext').textContent=s.r<3?'Next urge →':'See my score →';show('uNext',1)}
+ function end(){stop();show('uNext',0);E('uCount').textContent='Finished';s.f='';say(s.w===3?'🏅 You waited every time. Great job!':s.w>0?`⭐ You waited ${s.w} of 3 times. Good start!`:'You chose the ritual each time. That is okay. Try again and see what waiting feels like.');note('Waiting is a skill that gets easier with practice. A therapist can guide you step by step.');E('uAgain').textContent='↻ Play again';show('uAgain',1)}
+ function tick(){if($('#view-result').classList.contains('hide')||s.ph==='wait')return;s.k++;
+  if(s.ph==='rise')s.u=Math.min(90,s.u+4);
+  else if(s.ph==='ride'){if(s.k<=8)s.u=Math.min(95,s.u+3);else{s.u=Math.max(8,s.u-3);if(s.k===9)say('The urge is getting smaller on its own…');if(s.u<=8){s.w++;s.f='😌';say('It faded by itself! ⭐ You did not need the ritual.');note('The urge rose, reached a peak, then dropped, even though you did nothing. Over time this helps your brain learn the urge is not dangerous.');done()}}}
+  else if(s.ph==='give'){if(s.k<4)s.u=Math.max(25,s.u-15);else if(s.k===4){s.f='😮‍💨';say('Ahh, relief… for now.')}else if(s.k>=8){s.f='';s.u=Math.min(75,s.u+6);if(s.k===8)say('…but the urge is already coming back.')}
+   if(s.k>=14){note('Giving in feels better for a moment, but the urge returns and the habit gets stronger. That is the OCD loop.',1);done()}}
+  draw()}
+ function pick(ph){if(s.ph!=='rise')return;s.ph=ph;s.k=0;show('uBtns',0);say(ph==='ride'?'You wait and just notice it. Stay with it… 🌊':'You do the ritual…')}
+ const init=()=>{stop();s={r:0,u:20,w:0,ph:'wait',k:0,f:''};draw();show('uBtns',0);show('uNext',0);E('uAgain').textContent='▶ Start';show('uAgain',1);E('uCount').textContent='';say('An urge is a strong feeling that you must do something. Tap Start to meet one.');note('')};
+ E('uAgain').onclick=()=>{if(s.r>=3)init();show('uAgain',0);next();t=setInterval(tick,150)};
+ E('uNext').onclick=()=>s.r<3?next():end();
+ E('uWait').onclick=()=>pick('ride');E('uGive').onclick=()=>pick('give');
+ return {init,stop}})();
+const g3=makeGame('g3',[
+['💭','“What if I hurt someone by mistake?” keeps coming into your mind.',1,'Obsession: an unwanted thought, image or urge that keeps coming back.'],
+['🧼','Washing your hands again and again until it “feels right”.',0,'Compulsion: something you do, again and again, to ease the distress.'],
+['😣','A disturbing picture in your mind that will not go away.',1,'Obsession. It is an image that appears without being invited.'],
+['🔍','Checking the stove for the fifth time.',0,'Compulsion. Checking is an action done to feel safe.'],
+['❓','A strong doubt: “Did I really switch it off?”',1,'Obsession. The doubt is the thought, and checking is the compulsion that follows.'],
+['🔢','Counting steps so that nothing bad happens.',0,'Compulsion. Counting or repeating is a ritual to feel safe.'],
+['🗣','Asking again and again, “Are you sure it is fine?”',0,'Compulsion. Reassurance seeking is a ritual, even when it is done with words.'],
+['📐','Rearranging things until they feel “just right”.',0,'Compulsion. The urge to arrange is the obsession side; the arranging itself is the ritual.']
+],['🏅 Loop expert!','Good start.','Keep learning, you can do it.']);
+
+/* ---------- retake, tabs, fold, refs ---------- */
+function retake(){stopSay();urge.stop();A=Array(18).fill(null);qi=0;LAST=null;lock=false;qShow();$('#view-result').classList.add('hide');$('#view-input').classList.remove('hide');try{history.replaceState(null,'',location.pathname)}catch(_){}$('#calcCard').scrollIntoView({behavior:'smooth'})}
+$$('.retake').forEach(b=>b.onclick=retake);
+$$('.rtabs [data-go]').forEach(b=>b.onclick=()=>b.dataset.go==='games'?goGames():window.scrollTo({top:0,behavior:'smooth'}));
+$$('.fold').forEach(p=>{const b=document.createElement('button');b.type='button';b.className='foldbtn';b.textContent='Read more ▾';b.onclick=()=>{b.textContent=p.classList.toggle('open')?'Show less ▴':'Read more ▾'};p.after(b)});
+document.addEventListener('click',e=>{const a=e.target.closest('sup a');if(!a)return;const t=document.getElementById((a.getAttribute('href')||'').slice(1)),d=t&&t.closest('details');if(d)d.open=true});
+/* ---------- jump-to-games button ---------- */
+const goGames=()=>$('#games').scrollIntoView({behavior:'smooth',block:'start'});
+$('#toGames').addEventListener('click',e=>{e.preventDefault();goGames()});
+let inG=false;
+$('#fab').addEventListener('click',()=>inG?window.scrollTo({top:0,behavior:'smooth'}):goGames());
+if('IntersectionObserver' in window)new IntersectionObserver(es=>{inG=es[0].isIntersecting;$('#fab').textContent=inG?'↑ My result':'🎮 Games ↓'},{rootMargin:'0px 0px -35% 0px'}).observe($('#games'));
+
+/* ---------- talking brain (browser read-aloud, no external service) ---------- */
+const KID='<svg viewBox="0 0 100 100" aria-hidden="true"><g fill="#f6b8cf" stroke="#c9739b" stroke-width="7" stroke-linejoin="round"><circle cx="36" cy="42" r="23"/><circle cx="64" cy="42" r="23"/><circle cx="50" cy="66" r="22"/><circle cx="28" cy="62" r="14"/><circle cx="72" cy="62" r="14"/></g><g fill="#f6b8cf"><circle cx="36" cy="42" r="23"/><circle cx="64" cy="42" r="23"/><circle cx="50" cy="66" r="22"/><circle cx="28" cy="62" r="14"/><circle cx="72" cy="62" r="14"/></g><path d="M50 20C45 32 55 38 50 48M30 34C36 36 38 42 34 48M70 34C64 36 62 42 66 48" fill="none" stroke="#dc8fb0" stroke-width="3" stroke-linecap="round"/><circle cx="41" cy="56" r="3.8" fill="#3a2430"/><circle cx="59" cy="56" r="3.8" fill="#3a2430"/><circle cx="42" cy="54.8" r="1.2" fill="#fff"/><circle cx="60" cy="54.8" r="1.2" fill="#fff"/><ellipse cx="34" cy="65" rx="4.5" ry="2.8" fill="#f2909d" opacity=".7"/><ellipse cx="66" cy="65" rx="4.5" ry="2.8" fill="#f2909d" opacity=".7"/><path class="mouth" d="M43 65Q50 75 57 65Z" fill="#7a2a3e"/></svg>';
+$$('.kid-slot').forEach(sl=>{const b=document.createElement('button');b.type='button';b.className='kid say-kid';b.setAttribute('aria-label','Tap to hear me talk');b.innerHTML=KID;sl.replaceWith(b)});
+const TTS='speechSynthesis' in window&&'SpeechSynthesisUtterance' in window;
+if(!TTS)document.documentElement.classList.add('nospeech');
+let VOICE=null,curBtn=null,SAYTOK=0;
+function pickVoice(){if(!TTS)return;const vs=speechSynthesis.getVoices();VOICE=vs.find(v=>/en[-_]IN/i.test(v.lang))||vs.find(v=>/^en/i.test(v.lang))||null}
+if(TTS){pickVoice();speechSynthesis.onvoiceschanged=pickVoice}
+function norm(t){return t.replace(/\bOCI-R\b/g,'O C I R').replace(/\bOCD\b/g,'O C D').replace(/\bERP\b/g,'E R P').replace(/\bCBT\b/g,'C B T').replace(/\bSSRIs?\b/g,'S S R I').replace(/\[\d+\]/g,'').replace(/\//g,' out of ').replace(/%/g,' percent').replace(/🔊|[\u{1F300}-\u{1FAFF}]/gu,'').replace(/\s+/g,' ').trim()}
+function setTalk(on,btn){$$('.kid').forEach(k=>k.classList.toggle('talking',on));$$('.say').forEach(x=>x.setAttribute('aria-pressed',on&&x===btn));curBtn=on?btn:null}
+function stopSay(){if(!TTS)return;SAYTOK++;speechSynthesis.cancel();setTalk(false)}
+function sayText(text,btn){
+  if(!TTS)return;
+  if(curBtn&&curBtn===btn){stopSay();return}
+  speechSynthesis.cancel();const tok=++SAYTOK;
+  const parts=norm(text).match(/[^.!?]+[.!?]*/g)||[];let i=0;
+  setTalk(true,btn);
+  const next=()=>{if(tok!==SAYTOK)return;if(i>=parts.length){setTalk(false);return}
+    const u=new SpeechSynthesisUtterance(parts[i++]);u.lang=VOICE?VOICE.lang:'en-IN';if(VOICE)u.voice=VOICE;u.rate=.92;u.onend=next;u.onerror=()=>{if(tok===SAYTOK)setTalk(false)};speechSynthesis.speak(u)};
+  setTimeout(next,60)}
+const readEl=sel=>{const e=$(sel);return e?e.textContent:''};
+function resultSpeech(){if(!LAST)return 'Please answer the questions first.';
+  const r=LAST;
+  return `Your OCD-type score is ${r.ocd} out of 60. The research cut-off is 12. `+(r.ocdHi?'Your score is at or above it. Many people with O C D score this high, but this is not a diagnosis. Please talk to a doctor, psychiatrist or psychologist. ':'Your score is below it. If the thoughts or habits still worry you, please talk to a doctor anyway. ')+`Your hoarding score is ${r.hoard} out of 12. The cut-off is 6. `+(r.hoardHi?'Your score is at or above it, so mention it to your doctor. ':'Your score is below it. ')+'A score is only a pointer, never a diagnosis. If you feel very low or think of harming yourself, please call Tele-MANAS on 1 4 4 1 6, or your local emergency number.'}
+document.addEventListener('click',e=>{
+  const k=e.target.closest('.kid');
+  if(k){const row=k.closest('.intro,.rintro,.hero');const b=row&&row.querySelector('.say');if(b)b.click();return}
+  const b=e.target.closest('.say');if(!b)return;
+  if(b.id==='sayRes')sayText(resultSpeech(),b);
+  else if(b.id==='sayQ')sayText(`Question ${qi+1}. ${Q[qi][1]} In the past month, how much has this distressed or bothered you? Not at all, a little, moderately, a lot, or extremely.`,b);
+  else if(b.id==='g1Say')sayText(g1.text(),b);
+  else if(b.id==='g2Say')sayText(g2.text(),b);
+  else if(b.id==='g3Say')sayText(g3.text(),b);
+  else if(b.dataset.read)sayText(readEl(b.dataset.read),b)});
+window.addEventListener('pagehide',stopSay);
+
+/* ---------- share ---------- */
+const T=encodeURIComponent('OCD Self-Check Calculator – Free OCI-R Symptom Score'),Uu=encodeURIComponent(PAGE);
+const IC={
+wa:'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z',
+fb:'M14 8h3V4h-3c-2.8 0-4 1.8-4 4v2H7v4h3v8h4v-8h3l1-4h-4V8.5c0-.3.2-.5.5-.5z',
+x:'M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z',
+li:'M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z',
+tg:'M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z',
+pi:'M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z',
+em:'M3 5h18v14H3zM3 6l9 7 9-7',
+ln:'M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1'};
+const ico=(k,st)=>st?`<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${IC[k]}"/></svg>`:`<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="${IC[k]}"/></svg>`;
+$('#share').innerHTML=[
+['WhatsApp','wa','#25D366',`https://api.whatsapp.com/send?text=${T}%0A${Uu}`],['Facebook','fb','#1877F2',`https://www.facebook.com/sharer/sharer.php?u=${Uu}`],['X','x','#111',`https://twitter.com/intent/tweet?url=${Uu}&text=${T}`],['LinkedIn','li','#0A66C2',`https://www.linkedin.com/sharing/share-offsite/?url=${Uu}`],['Telegram','tg','#26A5E4',`https://t.me/share/url?url=${Uu}&text=${T}`],['Pinterest','pi','#E60023',`https://pinterest.com/pin/create/button/?url=${Uu}&description=${T}`],['Email','em','#5a6776',`mailto:?subject=${T}&body=${Uu}`]
+].map(([n,k,c,h])=>`<a class="sh" style="--c:${c}" href="${h}" target="_blank" rel="noopener" aria-label="Share on ${n}" title="${n}">${ico(k,k==='em')}<span>${n}</span></a>`).join('')+`<button class="sh" id="copyLink" type="button" style="--c:#1c3f74" aria-label="Copy link" title="Copy link">${ico('ln',1)}<span>Copy link</span></button>`;
+document.addEventListener('click',async e=>{const b=e.target.closest('#copyLink');if(!b)return;const sp=b.querySelector('span');try{await navigator.clipboard.writeText(PAGE);sp.textContent='Copied!';setTimeout(()=>sp.textContent='Copy link',1800)}catch(_){}});
+
+
+</script>
+</body>
+</html>
